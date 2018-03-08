@@ -117,7 +117,8 @@ $tweaks = @(
 
 	### Auxiliary Functions ###
 	#"WaitForKey",
-	"Restart"
+	#"Restart"
+	"Exiting"
 )
 
 
@@ -1774,6 +1775,11 @@ Function WaitForKey {
 Function Restart {
 	Write-Host "Restarting..."
 	Restart-Computer
+}
+
+Function Exiting {
+	Write-Host "Restarting..."
+	Exit
 }
 
 
