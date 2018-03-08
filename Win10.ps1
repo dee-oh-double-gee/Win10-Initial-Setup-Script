@@ -116,7 +116,7 @@ $tweaks = @(
 	# "DisableIEEnhancedSecurity",  # "EnableIEEnhancedSecurity",
 
 	### Auxiliary Functions ###
-	"WaitForKey",
+	#"WaitForKey",
 	"Restart"
 )
 
